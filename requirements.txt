@@ -1,0 +1,24 @@
+# Deep Learning ve Computer Vision
+ultralytics==8.3.0          # YOLOv8
+opencv-python==4.10.0.84    # OpenCV
+opencv-contrib-python==4.10.0.84  # OpenCV ekstra modüller (trackers)
+
+# Görüntü İşleme
+numpy<2.0,>=1.24.3          # NumPy 1.x (matplotlib uyumluluğu için)
+Pillow==10.4.0
+mss==9.0.1                  # Ekran yakalama
+
+# Kalman Filter ve Matematik
+filterpy==1.4.5             # Kalman filter
+scipy==1.11.4
+
+# Görselleştirme
+matplotlib==3.7.5
+
+# Performans
+torch==2.1.0                # PyTorch (CPU versiyonu)
+torchvision==0.16.0
+
+# Yardımcı
+tqdm==4.66.5                # Progress bar
+pyyaml==6.0.2               # Konfigürasyon

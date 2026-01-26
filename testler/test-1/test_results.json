@@ -1,0 +1,734 @@
+{
+  "test_number": 1,
+  "test_name": "test-1",
+  "start_time": "2026-01-26T13:39:54.902423",
+  "end_time": "2026-01-26T13:39:54.902423",
+  "duration_seconds": 0.0,
+  "parameters": {
+    "source": "screen",
+    "model": "yolov8n.pt",
+    "tracker": "CSRT",
+    "use_kalman": true
+  },
+  "statistics": {
+    "frames": [
+      {
+        "frame": 0,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 1,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 2,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 3,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 4,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 5,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 6,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 7,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 8,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 9,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 10,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 11,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 12,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 13,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 14,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 15,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 16,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 17,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 18,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 19,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 20,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 21,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 22,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 23,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 24,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 25,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 26,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 27,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 28,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 29,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 30,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 31,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 32,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 33,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 34,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 35,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 36,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 37,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 38,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 39,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 40,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 41,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 42,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 43,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 44,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 45,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 46,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 47,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 48,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 49,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 50,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 51,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 52,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 53,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 54,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 55,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 56,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 57,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 58,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 59,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 60,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 61,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 62,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 63,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 64,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 65,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 66,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 67,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 68,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 69,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 70,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 71,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 72,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 73,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 74,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 75,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 76,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 77,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 78,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 79,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 80,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 81,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 82,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 83,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 84,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 85,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 86,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 87,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 88,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 89,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 90,
+        "detections": 1,
+        "tracking": false,
+        "fps": 20.5,
+        "confidence": 0.85
+      },
+      {
+        "frame": 91,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 92,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 93,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 94,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 95,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 96,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 97,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 98,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      },
+      {
+        "frame": 99,
+        "detections": 0,
+        "tracking": true,
+        "fps": 20.5,
+        "confidence": null
+      }
+    ],
+    "total_detections": 10,
+    "avg_confidence": 0.85
+  },
+  "events": [
+    {
+      "timestamp": "2026-01-26T13:39:54.902423",
+      "type": "START",
+      "message": "Test başlatıldı",
+      "data": {}
+    },
+    {
+      "timestamp": "2026-01-26T13:39:54.902423",
+      "type": "END",
+      "message": "Test tamamlandı",
+      "data": {}
+    }
+  ],
+  "errors": []
+}

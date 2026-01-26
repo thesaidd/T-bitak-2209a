@@ -1,0 +1,44 @@
+============================================================
+TEST SONUÇLARI - TEST-6
+============================================================
+
+GENEL BİLGİLER
+------------------------------------------------------------
+Test No: 6
+Başlangıç: 2026-01-26T20:11:20.004488
+Bitiş: 2026-01-26T20:12:04.777212
+Süre: 44.8 saniye
+
+PARAMETRELER
+------------------------------------------------------------
+mode: MOSSE_OPTIMIZED
+source: screen
+model: yolov8n.pt
+conf_threshold: 0.4
+tracker: MOSSE
+use_kalman: True
+resize_input: True
+input_size: (416, 416)
+
+İSTATİSTİKLER
+------------------------------------------------------------
+total_frames: 257
+total_detections: 1
+avg_fps: 12.964484108762065
+frames_tracked: 0
+frames_lost: 0
+
+Toplam Frame: 258
+Tracking Frame: 0
+Tracking Oranı: 0.0%
+Ortalama FPS: 6.1
+
+ÖNEMLI OLAYLAR
+------------------------------------------------------------
+[2026-01-26T20:11:20.004488] START: MOSSE optimize mod baslatildi
+[2026-01-26T20:11:40.618538] TRACKER_INIT: Tracker baslatildi: bird
+[2026-01-26T20:11:40.692459] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:12:04.777212] VIDEO_SAVED: Video kaydedildi: testler\test-6\mosse_fast_20260126_201120.mp4
+[2026-01-26T20:12:04.777212] END: Sistem kapatildi
+
+============================================================

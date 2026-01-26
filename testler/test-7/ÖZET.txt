@@ -1,0 +1,50 @@
+============================================================
+TEST SONUÇLARI - TEST-7
+============================================================
+
+GENEL BİLGİLER
+------------------------------------------------------------
+Test No: 7
+Başlangıç: 2026-01-26T20:15:14.716947
+Bitiş: 2026-01-26T20:18:29.228886
+Süre: 194.5 saniye
+
+PARAMETRELER
+------------------------------------------------------------
+mode: MOSSE_OPTIMIZED
+source: screen
+model: yolov8n.pt
+conf_threshold: 0.4
+tracker: MOSSE
+use_kalman: True
+resize_input: True
+input_size: (416, 416)
+
+İSTATİSTİKLER
+------------------------------------------------------------
+total_frames: 974
+total_detections: 55
+avg_fps: 12.810429274858041
+tracking_success_rate: 100.0
+frames_tracked: 572
+frames_lost: 0
+
+Toplam Frame: 1553
+Tracking Frame: 572
+Tracking Oranı: 36.8%
+Ortalama FPS: 8.8
+
+ÖNEMLI OLAYLAR
+------------------------------------------------------------
+[2026-01-26T20:17:02.532558] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:17:03.956527] TRACKER_INIT: Tracker baslatildi: airplane
+[2026-01-26T20:17:04.892706] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:17:07.205837] TRACKER_INIT: Tracker baslatildi: airplane
+[2026-01-26T20:17:07.276796] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:17:09.824303] TRACKER_INIT: Tracker baslatildi: airplane
+[2026-01-26T20:17:10.112660] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:17:19.017078] TRACKER_INIT: Tracker baslatildi: airplane
+[2026-01-26T20:18:29.228886] VIDEO_SAVED: Video kaydedildi: testler\test-7\mosse_fast_20260126_201514.mp4
+[2026-01-26T20:18:29.228886] END: Sistem kapatildi
+
+============================================================

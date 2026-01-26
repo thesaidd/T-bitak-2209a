@@ -1,0 +1,48 @@
+============================================================
+TEST SONUÇLARI - TEST-5
+============================================================
+
+GENEL BİLGİLER
+------------------------------------------------------------
+Test No: 5
+Başlangıç: 2026-01-26T19:57:22.628889
+Bitiş: 2026-01-26T20:01:21.798254
+Süre: 239.2 saniye
+
+PARAMETRELER
+------------------------------------------------------------
+source: screen
+model: yolov8n.pt
+conf_threshold: 0.5
+tracker: MOSSE
+use_kalman: True
+save_video: True
+
+İSTATİSTİKLER
+------------------------------------------------------------
+total_frames: 1455
+total_detections: 28
+avg_fps: 17.943346729282204
+tracking_success_rate: 100.0
+frames_tracked: 798
+frames_lost: 0
+
+Toplam Frame: 2281
+Tracking Frame: 798
+Tracking Oranı: 35.0%
+Ortalama FPS: 10.3
+
+ÖNEMLI OLAYLAR
+------------------------------------------------------------
+[2026-01-26T20:00:20.705799] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T20:00:20.768249] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:01:00.402999] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T20:01:00.463471] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:01:00.591450] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T20:01:03.756934] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:01:03.891565] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T20:01:05.873331] TRACKER_LOST: Hedef kaybedildi
+[2026-01-26T20:01:21.798254] VIDEO_SAVED: Video kaydedildi: testler\test-5\tracking_20260126_195722.mp4
+[2026-01-26T20:01:21.798254] END: Sistem kapatıldı
+
+============================================================

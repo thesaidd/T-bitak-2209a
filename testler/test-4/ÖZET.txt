@@ -1,0 +1,47 @@
+============================================================
+TEST SONUÇLARI - TEST-4
+============================================================
+
+GENEL BİLGİLER
+------------------------------------------------------------
+Test No: 4
+Başlangıç: 2026-01-26T19:55:13.843814
+Bitiş: 2026-01-26T19:56:40.477628
+Süre: 86.6 saniye
+
+PARAMETRELER
+------------------------------------------------------------
+source: screen
+model: yolov8n.pt
+conf_threshold: 0.5
+tracker: KCF
+use_kalman: True
+save_video: True
+
+İSTATİSTİKLER
+------------------------------------------------------------
+total_frames: 675
+total_detections: 73
+avg_fps: 17.650805678013384
+frames_tracked: 0
+frames_lost: 0
+
+Toplam Frame: 675
+Tracking Frame: 0
+Tracking Oranı: 0.0%
+Ortalama FPS: 8.1
+
+ÖNEMLI OLAYLAR
+------------------------------------------------------------
+[2026-01-26T19:56:38.668605] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:38.800087] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:38.949659] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:39.086206] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:39.362638] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:39.492275] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:39.621923] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:39.765012] TRACKER_INIT: Tracker başlatıldı: airplane
+[2026-01-26T19:56:40.477628] VIDEO_SAVED: Video kaydedildi: testler\test-4\tracking_20260126_195513.mp4
+[2026-01-26T19:56:40.477628] END: Sistem kapatıldı
+
+============================================================
