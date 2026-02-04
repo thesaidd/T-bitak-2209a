@@ -1,0 +1,48 @@
+# Hybrid Tracker Configuration
+# ROS 2 parameters for hybrid_tracker_node
+
+hybrid_tracker_node:
+  ros__parameters:
+    # Topics
+    camera_topic: "/takipIHA/camera/image_raw"
+    cmd_vel_topic: "/takipIHA/mavros/setpoint_velocity/cmd_vel_unstamped"
+    model_states_topic: "/gazebo/model_states"
+    target_name: "dusmanIHA"
+    
+    # Detection parameters
+    model_path: "yolov8n.pt"
+    conf_threshold: 0.5
+    target_classes: [4, 14]  # COCO: airplane, bird
+    tracker_type: "CSRT"  # CSRT, KCF, MOSSE, MIL
+    
+    # Image processing
+    target_width: 640
+    target_height: 480
+    
+    # State machine
+    kalman_timeout: 3.0  # seconds before switching to ground truth
+    
+    # PID gains - Yaw (horizontal centering)
+    # Tuned for visual servoing at 640x480
+    yaw_kp: 0.005
+    yaw_ki: 0.0
+    yaw_kd: 0.001
+    
+    # PID gains - Pitch/Speed (distance control)
+    pitch_kp: 0.003
+    pitch_ki: 0.0
+    pitch_kd: 0.001
+    
+    # PID gains - Altitude (Z control)
+    alt_kp: 0.5
+    alt_ki: 0.0
+    alt_kd: 0.1
+    
+    # Control limits
+    max_yaw_rate: 0.5      # rad/s
+    max_linear_speed: 2.0  # m/s
+    max_vertical_speed: 1.0  # m/s
+    
+    # Target bbox size for distance estimation
+    # Adjust based on your drone's apparent size at desired distance
+    target_bbox_size: 100  # pixels (width)
